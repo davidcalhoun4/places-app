@@ -9,7 +9,7 @@ class Api::PlacesController < ApplicationController
     @places = Place.new(
       name: params[:name],
       address: params[:address],
-      image: params[:image_url]
+      image_url: params[:image_url]
     )
     if @places.save
       render "show.json.jb"
