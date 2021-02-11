@@ -1,0 +1,6 @@
+{
+  id: place.id,
+  name: place.name,
+  address: place.address,
+  image: place.image_url
+}
